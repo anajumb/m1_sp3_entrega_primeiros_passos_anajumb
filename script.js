@@ -118,12 +118,12 @@ alert(`O valor a ser pago é de: R$ ${resultadoFinal.toFixed(2)}`)
 
 
 
-let tempo = parseFloat(prompt("Coloque o tempo da viagem:"));
+let time = parseFloat(prompt("Coloque o tempo da viagem:"));
 let velocidade = parseFloat(prompt("Coloque a velocidade da viagem:"));
-let distancia = tempo * velocidade;
+let distancia = time * velocidade;
 let litroUsado = distancia / 12
 alert(`Seu veiculo percorreu ${distancia}km a ${velocidade} km/h 
-em ${tempo}h de viagem e consumiu ${litroUsado.toFixed(2)} l de gasolina`);
+em ${time}h de viagem e consumiu ${litroUsado.toFixed(2)} l de gasolina`);
 
 
 
